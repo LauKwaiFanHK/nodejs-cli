@@ -1,6 +1,6 @@
 import TipCalculator from './TipCalculator.js';
 
-function runTipCalculator() {
+function StartTipCalculator() {
     try {
         TipCalculator();
     }
@@ -9,4 +9,4 @@ function runTipCalculator() {
     }
 };
 
-runTipCalculator();
+StartTipCalculator();
