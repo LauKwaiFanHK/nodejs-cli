@@ -7,7 +7,7 @@ import {
 } from './TipCalculatorV2Functions.js';
 
 
-// Tip calculator that handle money in a right way
+// A tip calculator variant that handle money in a right way
 const TipCalculator = () => {
     // local variable to save the status of the usage of the tip calculator
     let status = 'started';
@@ -30,7 +30,7 @@ const TipCalculator = () => {
         ])
         .then(answers => {
             displayResults(answers);
-            status = 'ended' // Indicate this usage of the tip calculator has finished
+            status = 'ended'; // Indicate this usage of the tip calculator has finished
             console.info('========================================');
             // Call the tip calculator recursively once an usage has finished
             if (status === 'ended') {

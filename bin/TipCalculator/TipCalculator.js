@@ -50,8 +50,8 @@ function displayResults(answers) {
     console.info('Total bill amount is: $', calculateTotal(billAmount, tipAmount));
 }
 
-// Tip calculator to ask user's questions,
-// prompt for answers and display results 
+// A module to ask user for bill and tip info,
+// do calculation and display results 
 const TipCalculator = () => {
     // local variable to save the status of the usage of the tip calculator
     let status = 'started';

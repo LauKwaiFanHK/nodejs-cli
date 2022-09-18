@@ -29,7 +29,7 @@ function concatenateNames(arr) {
     return str;
 };
 
-// A program to ask for users' name repeatedly,
+// A module to ask for users' name repeatedly,
 // and greet all users after a user entered his name
 const GreetingMachine = () => {
     let status = 'started';

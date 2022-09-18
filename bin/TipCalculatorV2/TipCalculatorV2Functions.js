@@ -1,3 +1,5 @@
+// Separate functions for handling input, processing and handling output
+
 export function validateBillAmount(answer) {
     // Check if user enters valid input for bill amount,
     // if invalid, return an error message and ask the same question again,
