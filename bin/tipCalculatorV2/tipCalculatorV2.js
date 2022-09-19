@@ -4,11 +4,11 @@ import {
     validateBillAmount,
     validateTipPercentage,
     displayResults
-} from './TipCalculatorV2Functions.js';
+} from './tipCalculatorV2Functions.js';
 
 
 // A tip calculator variant that handle money in a right way
-const TipCalculator = () => {
+const TipCalculatorV2 = () => {
     // local variable to save the status of the usage of the tip calculator
     let status = 'started';
 
@@ -34,9 +34,9 @@ const TipCalculator = () => {
             console.info('========================================');
             // Call the tip calculator recursively once an usage has finished
             if (status === 'ended') {
-                TipCalculator();
+                TipCalculatorV2();
             }
         });
 };
 
-export default TipCalculator;
+export default TipCalculatorV2;

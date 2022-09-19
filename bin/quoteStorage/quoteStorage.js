@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import QuoteEnquiry from './QuoteEnquiry.js';
+import QuoteEnquiry from './quoteEnquiry.js';
 
 // A module that store quotes and authors using a map object
 const QuoteStorage = () => {

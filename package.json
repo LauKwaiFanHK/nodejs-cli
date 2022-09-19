@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "type": "module",
+  "jest": {
+    "transform": {}
+  },
   "devDependencies": {
     "jest": "^29.0.3"
   },

@@ -2,7 +2,7 @@ import { jest } from '@jest/globals';
 import {
     validateTextInput,
     printQuotes
-} from './QuoteEnquiryFunctions.js';
+} from './quoteEnquiryFunctions.js';
 
 describe('QuoteEnquiryFunctions', () => {
     test('Function validateTextInput - should return true for valid input', () => {

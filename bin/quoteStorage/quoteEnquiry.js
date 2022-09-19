@@ -2,7 +2,7 @@ import Inquirer from 'inquirer';
 import {
     validateTextInput,
     printQuotes
-} from './QuoteEnquiryFunctions.js';
+} from './quoteEnquiryFunctions.js';
 
 // Prompt for user's quote and the quote's author
 const questions = [

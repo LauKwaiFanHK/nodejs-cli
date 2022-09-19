@@ -9,7 +9,7 @@ import {
     calculateTotal,
     convertAmountInCentToEuro,
     displayResults
-} from './TipCalculatorV2Functions';
+} from './tipCalculatorV2Functions.js';
 
 const billAmountInput = [
     '1234.9',

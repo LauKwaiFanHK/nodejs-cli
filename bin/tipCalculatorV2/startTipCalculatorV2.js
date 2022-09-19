@@ -1,4 +1,4 @@
-import TipCalculatorV2 from './TipCalculatorV2.js';
+import TipCalculatorV2 from './tipCalculatorV2.js';
 
 function StartTipCalculatorV2() {
     try {

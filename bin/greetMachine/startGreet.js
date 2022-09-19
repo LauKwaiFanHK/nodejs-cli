@@ -1,6 +1,6 @@
-import GreetingMachine from './GreetingMachine.js';
+import GreetingMachine from './greetingMachine.js';
 
-function startGreeting() {
+export function startGreeting() {
     try {
         GreetingMachine();
     } catch (error) {

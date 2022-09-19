@@ -1,4 +1,4 @@
-import QuoteStorage from "./QuoteStorage.js";
+import QuoteStorage from "./quoteStorage.js";
 
 function startQuoteStorage() {
     try {
